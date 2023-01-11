@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+<nav class="nav_pc">
+  
+    <ul>
+        <a href="#cv_en"><input type="button" class="menu" value="About"></a>
+        <a href="#container_pc"><input type="button" class="menu" value="Project"></a>
+        <a href="#contact_pc"><input type="button" class="menu" value="Contact"></a>
+        <form>
+        <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+            <option value="">EN</option> 
+            <option value="cv_tc.html">繁中</option>
+        </select> 
+        </form>
+    </ul>
+
+</nav>
+
+
+<nav class="nav_mobile">
+  
+    <ul>
+        <a href="#about_mobile"><input type="button" class="menu" value="About"></a>
+        <a href="#container_mobile"><input type="button" class="menu" value="Project"></a>
+        <a href="#contact_mobile"><input type="button" class="menu" value="Contact"></a>
+        <form>
+           <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+               <option value="">EN</option>
+               <option value="cv_tc.html">繁中</option> 
+           </select> 
+           </form>
+       </ul>
+   
+</nav>
+
+
+<body>
+
+
+    <div class="intro_pc" id="2">
+        <h1 style="padding:24vh 40px 4vh 40px;">Hello, I'm Karen.</h1>
+        <div class="about">
+            <h4 style="padding:0 25% 10vh 25%;">I came from Taiwan, a heavy uiux user and  have relative work around 2.8 years. Keep uiux stay simple, intuitive and full of pleasure through multiple content, hierarchy and consistent are daily usual of mine.
+            </h4>
+        </div>
+    </div>
+
+    <div class="intro_mobile"  id="about_mobile">
+        <h1 style="padding:24vh 40px 4vh 40px;">Hello, I'm Karen.</h1>
+        <div class="about">
+            <h4 style="padding:0 10% 10vh 10%;">I came from Taiwan, a heavy uiux user and have relative work around 2.8 years. Keep uiux stay simple, intuitive and full of pleasure through multiple content, hierarchy and consistent are daily usual of mine.
+            </h4>
+        </div>
+    </div>
+
+    <div class="fade" style="width:40px;margin: auto;">
+    <img src="img/icon_continue.svg">
+    </div>
+
+    <div hidden style="width:30vw;margin:auto;text-align: center;background-color: ;">
+        <button id="seeMoreBtn" style="background-color:#9FDE5E ;">More</button>
+        </div>
+    
+    <article hidden id="article">
+        <h3>Relative experience</h3>
+        <h4 style="padding:0 10% 14vh 10%;">About 2.8 years for uiux design and 2 years for graphic and editor of social platform.</h4>
+    </article>
+    
+
+
+<div class="container" id="container_pc">
+
+
+
+
+        <!-- Project02 -->
+        <div class="box" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_ec_1.png" style="width:80%;margin: auto;">
+            <div class="description">
+               <h2>Mobile-ecommerce</h2>
+               <h4>Extend own-brand management of social media to mall online, stores can launch the newly products and enhance brand awareness with promotional activities, as this issue to explore brand image and uiux design.</h4>
+               <div style="padding: 5px 0;">
+               <h4><b><a href="project_ec_en.html" class="more">Read More</a></b></h4>
+               </div>
+            </div>
+        </div>
+
+        <!-- Project03 -->
+        <div class="box" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_r_1.png">
+            <div class="description">
+               <h2>Reservation platform</h2>
+               <h4>Through reservation platform customers can check for the service on sale for available time, further the store can accept the orders immediately. Design for the customers and stores to have a better experience on booking and coupons.</h4>
+               <div style="padding: 5px 0;">
+               <h4><b><a href="project_reservation_en.html" class="more">Read More</a></b></h4>
+               </div>
+            </div>
+        </div>
+
+        <!-- Project04 -->
+        <div class="box" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_p_1.png">
+            <div class="description">
+               <h2>Product onlinepay</h2>
+               <h4>Build up the landing page to introduce products of company and relative activities, further customers can buy and pay the suitable program online.</h4>
+               <div style="padding: 5px 0;">
+               <h4><b><a href="project_onlinepay_en.html" class="more">Read More</a></b></h4>
+               </div>
+            </div>
+        </div>
+
+
+        <!-- Project05 -->
+        <div class="box" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_l_1.png">
+            <div class="description">
+               <h2>RWD LandingPage</h2>
+               <h4>Official website and landing page design for difference platforms represent the best affection to consumers.</h4>
+               <div style="padding: 5px 0;">
+               <h4><b><a href="project_landingpage_en.html" class="more">Read More</a></b></h4>
+            </div>
+        </div>
+        </div>
+
+        <!-- Project01 -->
+        <div class="box" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_graphic_2.png">
+            <div class="description">
+               <h2>Graphic design</h2>
+               <h4>Around main topic to design illustration, posters and banners which matched with brand image.</h4>
+               <div style="padding: 5px 0;">
+               <h4><b><a href="project_graphic_en.html" class="more">Read More</a></b></h4>
+               </div>
+            </div>
+        </div>
+
+
+
+
+</div>
+
+
+<!-- mobile -->
+
+
+<div class="container" id="container_mobile">
+
+
+
+    <div style="margin:20% 0;"></div>
+
+    <!-- Project02 -->
+    <div class="box_mobile" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+        <div class="image_mobile"><img src="img/img_ec_1.png"></div>
+        <div class="description">
+           <h2>Mobile-ecommerce</h2>
+           <h4>Extend own-brand management of social media to mall online, stores can launch the newly products and enhance brand awareness with promotional activities, as this issue to explore brand image and uiux design.</h4>
+           <h4><b><a href="project_ec_en.html" class="more">Read More</a></b></h4>
+        </div>
+    </div>
+
+    <div style="margin:20% 0;"></div>
+
+    <!-- Project03 -->
+    <div class="box_mobile" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+        <div class="image_mobile"><img src="img/img_r_1.png"></div>
+        <div class="description">
+           <h2>Reservation platform</h2>
+           <h4>Through reservation platform customers can check for the service on sale for available time, further the store can accept the orders immediately. Design for the customers and stores to have a better experience on booking and coupons.</h4>
+           <h4><b><a href="project_reservation_en.html" class="more">Read More</a></b></h4>
+        </div>
+    </div>
+
+    <div style="margin:20% 0;"></div>
+
+
+        <!-- Project04 -->
+        <div class="box_mobile" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_web_1.png">
+            <div class="description">
+               <h2>Product onlinepay</h2>
+               <h4>Build up the landing page to introduce products of company and relative activities, further customers can buy and pay the suitable program online.</h4>
+               <h4><b><a href="project_onlinepay_en.html" class="more">Read More</a></b></h4>
+            </div>
+        </div>
+
+    <div style="margin:20% 0;"></div>
+
+
+        <!-- Project05 -->
+        <div class="box_mobile" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_web_3.png">
+            <div class="description">
+               <h2>RWD LandingPage</h2>
+               <h4>Official website and landing page design for difference platforms represent the best affection to consumers.</h4>
+               <h4><b><a href="project_landingpage_en.html" class="more">Read More</a></b></h4>
+            </div>
+        </div>
+
+
+    <div style="margin:20% 0;"></div>
+
+        <!-- Project01 -->
+        <div class="box_mobile" data-aos="fade-up" data-aos-duration="3000" id="profolio">
+            <img src="img/img_graphic_2.png">
+            <div class="description">
+               <h2>Graphic design</h2>
+               <h4>Around main topic to design illustration, posters and banners which matched with brand image.</h4>
+               <div style="padding: 5px 0;">
+               <h4><b><a href="project_graphic_en.html" class="more">Read More</a></b></h4>
+               </div>
+            </div>
+        </div>
+
+
+</div>
+
+
+
+
+        <div class="box_footer_pc" data-aos="" data-aos-duration="3000" id="contact_pc">
+            <col><h2>Hello, I'm Karen.<br>I look forward your response, and please contact me if there's any question.</h2><col>
+
+        <col>
+            <form action="https://formspree.io/f/mayaqbyd" method="post">
+              <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+              <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+            </form>
+        </col>
+
+        <div style="font-size: 16px;letter-spacing：10px;">Copyright©2022Allabout</div>
+
+        </div>
+
+        <div class="box_footer_mobile" data-aos="" data-aos-duration="3000" id="contact_mobile">
+            <col><h2>Hello, I'm Karen.<br>I look forward your response, and please contact me if there's any question.</h2><col>
+
+        <col>
+            <form action="https://formspree.io/f/mayaqbyd" method="post">
+              <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+              <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+            </form>
+        </col>
+
+        <div style="font-size: 16px;">Copyright©2022Allabout</div>
+
+        </div>
+
+<script>
+    AOS.init();
+</script>
+  
+<script>
+const seeMore = document.getElementById('seeMoreBtn')
+const article = document.getElementById('article')
+
+seeMore.addEventListener('click', () => {
+  article.classList.toggle('extended')
+
+  const extended = article.classList.contains('extended')
+  if (extended) {
+    seeMore.innerHTML = 'Close'
+  } else {
+    seeMore.innerHTML = 'Read More'
+  }
+})
+</script>
+
+</body>
+</html>

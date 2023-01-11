@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="style_content.css">
+    
+</head>
+
+
+<nav>
+  
+    <ul>
+        <a href="cv_en.html"><input type="button" class="menu" value="Home" onClick="javascript:ScrollTo('top')"></a>
+        <form>
+            <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                <option value="project_reservation_en.html">EN</option>
+                <option value="project_reservation_tc.html">繁中</option>  
+            </select> 
+            </form>    
+    </ul>
+
+</nav>
+
+
+<body>
+
+
+    <div class="nav_pc">
+
+        <div class="box" id="container_pc">
+            <div>
+            <h1 style="text-align:left;">Reservation platform</h1>
+            <h4 style="text-align: justify">With build up own-brand store on platform to offer management system to conduct and explore the business, and customers can search for the service they need and browse relative coupons to make a reservation online without limit of time or location.</h4>
+            <h4 style="text-align: justify">Main for：uiux, prototype and brand identification</h4>
+            </div>
+
+            <div>
+                <img src="img/img_r_2.png" width="110%" height="">
+            </div>
+        </div>
+
+    </div>
+    <div class="box_1" id="container_mobile">
+        <div>
+            <h1 style="text-align:left;">Reservation platform</h1>
+            <h4 style="text-align: justify">With build up own-brand store on platform to offer management system to conduct and explore the business, and customers can search for the service they need and browse relative coupons to make a reservation online without limit of time or location.</h4>
+            <h4 style="text-align: justify">Main for：uiux, prototype and brand identification</h4>
+        </div>
+        <div>
+            <img src="img/img_r_2.png" width="110%" height="">
+        </div>
+</div>
+
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Overview</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div width="80%" margin="auto" id="">
+    <h4 style="text-align: justify;width: 80%;display: flex;position: relative; margin:auto;">With current situation and structure of demands to scheme the wireframe and wire flow, then discuss with the group to reach the consensus.  Schedule process of project with agile Development every week, we revise several times to correspond to the demand of functions, in addion, redesign the flows and interfaces because of the change of main issue, at last launched on time after examining marketing aspect to optimize usability of platform. We always stay optimism attitude When confront the challenge of development stages and look forward to expanding additional functions in the future. I major in uiux design and brand identification around the multiple characters including customers, stores and backstage of platform. </h4>
+    </div>
+    </div>
+
+    <div style="width:360px;margin: 50px auto 0">
+        <img src="img/img_r_9_en.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>UI flow</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_r_3.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Solution proposal</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_r_6.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>UI present</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div id="container_pc" style="width:80%;margin: auto">
+        <img src="img/img_r_8_en.png">
+    </div>
+
+    <div id="container_mobile" style="width:80%;margin: auto">
+        <img src="img/img_r_8_en.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Style+Conponent</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_r_4.png">
+    </div>
+
+    <div class="box_footer_pc" data-aos="" data-aos-duration="3000" id="contact_pc">
+        <col><h2>Hello, I'm Karen.<br>I look forward to your reply, and please contact me if there's any question.</h2><col>
+
+    <col>
+        <form action="https://formspree.io/f/mayaqbyd" method="post">
+          <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+          <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+        </form>
+    </col>
+
+    <div style="font-size: 16px;letter-spacing：10px;">Copyright©2022Allabout</div>
+
+    </div>
+
+    <div class="box_footer_mobile" data-aos="" data-aos-duration="3000" id="contact_mobile">
+        <col><h2>Hello, I'm Karen.<br>I look forward to your reply, and please contact me if there's any question.</h2><col>
+
+    <col>
+        <form action="https://formspree.io/f/mayaqbyd" method="post">
+          <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+          <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+        </form>
+    </col>
+
+    <div style="font-size: 16px;">Copyright©2022Allabout</div>
+
+    </div>
+
+
+
+
+<script>
+    AOS.init();
+</script>
+  
+<script>
+const seeMore = document.getElementById('seeMoreBtn')
+const article = document.getElementById('article')
+
+seeMore.addEventListener('click', () => {
+  article.classList.toggle('extended')
+
+  const extended = article.classList.contains('extended')
+  if (extended) {
+    seeMore.innerHTML = 'Close'
+  } else {
+    seeMore.innerHTML = 'Read More'
+  }
+})
+</script>
+
+</body>
+</html>

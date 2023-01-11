@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="style_content.css">
+    
+</head>
+
+
+<nav>
+  
+    <ul>
+        <a href="cv_en.html"><input type="button" class="menu" value="Home" onClick="javascript:ScrollTo('top')"></a>
+    </ul>
+
+</nav>
+
+
+<body>
+
+
+    <div class="nav_pc">
+
+        <div class="box" id="container_pc">
+            <div>
+            <h1 style="text-align:left;">Ticketing System</h1>
+                <h4 style="text-align: justify">Automatical tiketing system, offering QRcode to the matched person refer to identification and ticket type, making up the lack of stuffmember and easing the crowd of people at the same time.</h4>
+                <h4 style="text-align: justify">Main for UIUX and prototype</h4>
+            </div>
+            <div>
+                <img src="img/img_t_2.png" width="110%" height="">
+            </div>
+        </div>
+
+    </div>
+    <div class="box_1" id="container_mobile">
+        <div>
+            <h1 style="text-align:left;">Ticketing System</h1>
+                <h4 style="text-align: justify">Automatical tiketing system, offering QRcode to the matched person refer to identification and ticket type, making up the lack of stuffmember and easing the crowd of people at the same time.</h4>
+                <h4 style="text-align: justify">Main for UIUX and prototype</h4>
+        </div>
+        <div>
+            <img src="img/img_r_2.png" width="110%" height="">
+        </div>
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Overview</h1>
+        <div class="v-line"></div>
+    </div>
+    <div width="80%" margin="auto">
+    <h4 style="text-align: justify;width: 80%;display: flex;position: relative; margin:auto;">透過釐清購票所需輸入之身份各項資訊、支付方式與入場票券等議題，設計使用者操作流程與介面，針對使用者在思考並確認選擇項目時，建立提示、防錯訊息，自動化整體流程，節省入場人力，結合手機會員資料，可見同步更新入場票券，除了單次性的入場瞟券外，也可提早預約購買次週的運動課程。</h4></br></br>
+    </div>
+    <div style="width:80%;margin: auto">
+        <img src="img/img_t_1.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Userflow</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_t_userflow.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Wireframe</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_ticket_wireframe.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>UI Present</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_t_3.png">
+    </div>
+
+
+    <div class="box_footer_pc" data-aos="" data-aos-duration="3000" id="contact_pc">
+        <col><h2>Hello, I'm Karen.<br>I look forward to your reply, and please contact me if there's any question.</h2><col>
+
+    <col>
+        <form action="https://formspree.io/f/mayaqbyd" method="post">
+          <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+          <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+        </form>
+    </col>
+
+    <div style="font-size: 16px;letter-spacing：10px;">Copyright©2022Allabout</div>
+
+    </div>
+
+    <div class="box_footer_mobile" data-aos="" data-aos-duration="3000" id="contact_mobile">
+        <col><h2>Hello, I'm Karen.<br>I look forward to your reply, and please contact me if there's any question.</h2><col>
+
+    <col>
+        <form action="https://formspree.io/f/mayaqbyd" method="post">
+          <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+          <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+        </form>
+    </col>
+
+    <div style="font-size: 16px;">Copyright©2022Allabout</div>
+
+    </div>
+
+
+
+
+<script>
+    AOS.init();
+</script>
+  
+<script>
+const seeMore = document.getElementById('seeMoreBtn')
+const article = document.getElementById('article')
+
+seeMore.addEventListener('click', () => {
+  article.classList.toggle('extended')
+
+  const extended = article.classList.contains('extended')
+  if (extended) {
+    seeMore.innerHTML = 'Close'
+  } else {
+    seeMore.innerHTML = 'Read More'
+  }
+})
+</script>
+
+</body>
+</html>

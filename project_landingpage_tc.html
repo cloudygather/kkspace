@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="style_content.css">
+    
+</head>
+
+
+<nav>
+  
+    <ul>
+        <a href="cv_tc.html"><input type="button" class="menu" value="首頁" onClick="javascript:ScrollTo('top')"></a>
+        <form>
+            <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                <option value="project_landingpage_tc.html">繁中</option>  
+                <option value="project_landingpage_en.html">EN</option>
+            </select> 
+        </form>    
+    </ul>
+
+</nav>
+
+
+<body>
+
+
+    <div class="nav_pc">
+
+        <div class="box" id="container_pc">
+            <div>
+            <h1 style="text-align:left;">響應式著陸頁</h1>
+                <h4 style="text-align: justify">針對共享空間企劃提案進行網頁RWD頁面設計、前端開發上架，藉由影片情境、5W1H說明主題，轉換訪客填單率。</h4>
+                <h4 style="text-align: justify">主要負責：頁面設計、前端開發</h4>
+                <div style="padding: 10px 0;">
+                <h4><b><a href="" class="more">前往站址 &rarr;</a></b></h4>
+                </div>
+            </div>
+
+            <div>
+                <img src="img/img_l_3.png" width="110%" height="">
+            </div>
+        </div>
+
+    </div>
+    <div class="box_1" id="container_mobile">
+        <div>
+            <h1 style="text-align:left;">廣告著陸頁</h1>
+                <h4 style="text-align: justify">針對共享空間企劃提案進行網頁RWD頁面設計、前端開發上架，藉由影片情境、5W1H說明主題，轉換訪客填單率。</h4>
+                <h4 style="text-align: justify">主要負責：頁面設計、前端開發</h4>
+                <div style="padding: 10px 0;">
+                <h4><b><a href="" class="more">前往站址 &rarr;</a></b></h4>
+                </div>
+        </div>
+        <div>
+            <img src="img/img_l_3.png" width="110%" height="">
+        </div>
+</div>
+
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Overview</h1>
+        <div class="v-line"></div>
+    </div>
+
+
+        <div>
+            <h4 style="text-align: justify;width: 80%;display: flex;position: relative; margin:auto;">以簡單的敘事方式說明What(品牌宗旨)、how(品牌體驗)、服務與優勢(品牌特色)，並以閉店和工作室常遇到的離峰時段作為範例，展示服務體驗可能發生的情境，最後提供回覆表單轉換訪客為合作對象。</h4>
+
+        </div>  
+
+        <div style="width:80%;margin:10vh auto">
+            <img src="img/img_l_4.png">
+        </div> 
+
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Page design</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/img_landpage_2.png">
+    </div>
+
+
+    <div class="box_footer_pc" data-aos="" data-aos-duration="3000" id="contact_pc">
+        <col><h2>哈囉，我是 Karen。<br>感謝您的閱讀，期待您的回應，若有任何問題，請與我聯繫。</h2><col>
+
+    <col>
+        <form action="result.php" method="post">
+          <input class="textarea" type="textarea" placeholder="Write something" name="UserName"> 
+          <input class="btn_sent" type="submit" name="SB" value="送出回覆" > 
+        </form>
+    </col>
+
+    <div style="font-size: 16px;letter-spacing：10px;">Copyright©2022Allabout</div>
+
+    </div>
+
+    <div class="box_footer_mobile" data-aos="" data-aos-duration="3000" id="contact_mobile">
+        <col><h2>哈囉，我是 Karen。<br>感謝您的閱讀，期待您的回應，若有任何問題，請與我聯繫。</h2><col>
+
+    <col>
+        <form action="result.php" method="post">
+          <input class="textarea" type="textarea" placeholder="Write something" name="UserName"> 
+          <input class="btn_sent" type="submit" name="SB" value="送出" > 
+        </form>
+    </col>
+
+    <div style="font-size: 16px;">Copyright©2022僅供作品使用</div>
+
+    </div>
+
+
+    
+<script>
+    AOS.init();
+</script>
+  
+<script>
+const seeMore = document.getElementById('seeMoreBtn')
+const article = document.getElementById('article')
+
+seeMore.addEventListener('click', () => {
+  article.classList.toggle('extended')
+
+  const extended = article.classList.contains('extended')
+  if (extended) {
+    seeMore.innerHTML = 'Close'
+  } else {
+    seeMore.innerHTML = 'Read More'
+  }
+})
+</script>
+
+</body>
+</html>

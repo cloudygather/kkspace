@@ -1,0 +1,351 @@
+
+nav{
+    height:72px;
+    position: ;
+    background-color: #white;
+    z-index: 10000;
+    margin:0;
+    width: 100%;
+  
+  }
+  
+  .menu{
+    color:#4a4a4a;
+    margin: 8px 10px;
+    font-size: 20px;
+    border-style: hide;
+    border:2px white none;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .menu:hover{
+    color:#2554A4;
+    background-color: #ffffff;
+  
+  }
+  
+  .form-control {
+        position: absolute;
+        right:60px;
+        width: 100%;
+        height: 40px;
+        padding: 6px 12px;
+        font-size: 20px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    
+    /* IE浏览器下隐藏下拉按钮 */
+    select::-ms-expand { display: none; }     
+    
+    /* 定义隐藏下拉框默认样式及图片覆盖下拉按钮 */   
+    .info-select{
+        width: 200px;
+        outline:none;
+        appearance:none;
+        -moz-appearance:none;
+        -webkit-appearance:none;
+        -ms-appearance:none;
+        background: url(img/icon_dropdown.svg) no-repeat scroll right center transparent;           
+    }
+    .form-control {
+        position: absolute;
+        right:60px;
+        top:20px;
+        font-size:14px;
+        width:120px;
+        margin:0 auto;
+        background: url("img/icon_dropdown_dark.svg") no-repeat right center;}
+    
+    .select{
+        appearance:none;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        -ms-appearance:none;
+        -o-appearance:none;
+        -khtml-appearance:none;
+    }
+    .select::-ms-expand { 
+        display: none;}
+    
+    /* 定义隐藏下拉框默认样式及图片覆盖下拉按钮 */   
+    .info-select{
+        width: 120px;
+        outline:none;
+        appearance:none;
+        -moz-appearance:none;
+        -webkit-appearance:none;
+        -ms-appearance:none;
+        background: url(img/icon_dropdown_dark.svg) no-repeat scroll right center transparent;           
+    }
+  
+  a{
+    color:#4a4a4a;
+  }
+  
+  body{
+      background-color: white;
+      font-family:'PingFang TC' ;
+      overflow-x:hidden;
+      width: 100%;
+      margin: 0 0;
+  }
+  
+  
+  h1{
+      text-align: center;
+      font-size: 60px;
+  }
+  
+  h2{
+      font-size: 32px;
+      font-weight: 600;
+  }
+  
+  h4{
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing:1px;
+      word-spacing: 1px;
+  }
+  
+  img{
+      width:100%;
+      padding:10px;
+  }
+  
+  .box{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:50px;
+      border: #4a4a4a;
+      background-color: none;
+      border-color:#aaaaee;
+      border-style: ;
+      border-width: none;
+      margin:5% 10%;
+      padding:10px;
+  }
+  
+  .box_1{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap:50px;
+      border: #4a4a4a;
+      background-color: none;
+      border-color:#aaaaee;
+      border-style: ;
+      border-width: none;
+      margin:5% 10%;
+      padding:10px;
+  }
+  
+  .space{
+      margin:20vh 0;
+  }
+  
+  .box_footer_pc{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:50px;
+      border: #4a4a4a;
+      background-color: #4a4a4a;
+      color:white;
+      border-color:#aaaaee;
+      margin:100px 0 0  0;
+      padding:80px 120px;
+  }
+  
+  a{
+      text-decoration: none;
+      color:#2554A4;
+  }
+  
+  .about{
+      text-align:justify;
+  }
+  
+  .description{
+      text-align:justify;
+  }
+  
+  .textarea{
+      width:70%;
+      height:60px;
+      margin:10% 0;
+      padding: 0 15px;
+      border-radius:10px;
+      border-color: black;
+      font-size:20px;
+      border:none ;
+  }
+  
+  .btn_sent{
+      width:20%;
+      height:60px;
+      margin:10% 0%;
+      color:white;
+      background-color: #B7FA73;
+      border-radius:8px;
+      font-size:20px;
+      border:none ;
+      color:#4a4a4a;
+  }
+  
+  .btn_sent:hover{
+      background-color:#9FDE5E;
+      box-shadow:4px #B7FA73;
+  }
+  
+  
+  .more{
+      width:20%;height:60px;
+      margin:10% 0%;
+      color:white;
+      background-color: #B7FA73;
+      border-radius:8px;
+      font-size:20px;
+      border:none ;
+      color:#4a4a4a;
+      padding: 15px;
+  }
+  
+  .more:hover{
+      background-color:#9FDE5E;
+      box-shadow:4px #B7FA73;
+  }
+  
+  
+  .box_mobile{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap:50px;
+      border: #4a4a4a;
+      background-color: none;
+      border-color:#aaaaee;
+      margin:5px 10%;
+      padding:;
+  }
+  
+  .box_footer_mobile{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap:50px;
+      border: #4a4a4a;
+      background-color: #4a4a4a;
+      color:white;
+      border-color:#aaaaee;
+      margin:0;
+      padding:10%;
+  }
+  
+  
+  @media screen and (min-width: 1200px) {
+      .nav_mobile{
+          display:none;
+      }
+      #container_mobile{
+          display:none;
+      }
+      .intro_mobile{
+          display:none;
+      }
+      .box_footer_mobile{
+          display:none;
+      }
+  }
+  
+  @media screen and (max-width: 1200px) {
+      .nav_pc{
+          display:none;
+      }
+      #container_pc{
+          display:none;
+      }
+      .intro_pc{
+          display:none;
+      }
+      .image_mobile{
+          display:;
+      }
+      .box{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap:50px;
+      border: #4a4a4a;
+      background-color: none;
+      border-color:#aaaaee;
+      border-style: ;
+      border-width: none;
+      margin:5% 10%;
+      padding:10px;
+      }
+      .box_footer_pc{
+          display:none;
+      }
+  }
+  
+  article {
+    max-width: 800px;
+    height: 300px;
+    overflow-y: hidden;
+    padding:0 25% 14vh 25%;
+    text-align:justify
+  }
+  
+  /* 单击按钮时添加此类 */
+  article.extended {
+    height: 628px;
+  }
+  
+  button {
+    width:20vw;
+    height:60px;
+    color:white;
+    background-color: #f5f5f5;
+    border-radius:8px;
+    font-size:20px;
+    border:none ;
+    color:#4a4a4a;
+    padding: 15px;
+  
+  }
+  
+  article {
+    font-size: 24px;
+    font-weight:300;
+    max-width:;
+    height: 50px;
+    overflow-y: hidden;
+    transition: height 0.4s linear;
+  }
+  
+  .circle{
+      width: 60px;
+      height: 60px;
+      margin: auto;
+      background-color: #e5e5e5;
+      border-radius:50px;
+  }
+  
+  .v-line{
+    border-left: thick dashed #e5e5e5;
+    height:60px;
+    left: 50%;
+    position: absolute;
+    border-width: 2px;
+  }
+  
+  
+  

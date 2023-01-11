@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="style_content.css">
+    
+</head>
+
+
+<nav>
+  
+    <ul>
+        <a href="cv_en.html"><input type="button" class="menu" value="首頁" onClick="javascript:ScrollTo('top')"></a>
+        <form>
+            <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                <option value="project_graphic_en.html">EN</option>
+                <option value="project_graphic_tc.html">繁中</option>  
+            </select> 
+        </form>    
+    </ul>
+
+</nav>
+
+
+<body>
+
+
+    <div class="nav_pc">
+
+        <div class="box" id="container_pc">
+            <div>
+            <h1 style="text-align:left;">Graphic</h1>
+                <h4 style="text-align: justify">Around main topic to design illustration, posters and banners which matched with brand image.</h4>
+                <h4 style="text-align: justify">Main for：compose、art</h4>
+                <div style="padding: 5px 0;">
+            </div>
+            </div>
+
+            <div>
+                <img src="img/img_graphic_1.png" width="70%" height="">
+            </div>
+        </div>
+
+    </div>
+    <div class="box_1" id="container_mobile">
+        <div>
+            <h1 style="text-align:left;">Graphic design</h1>
+                <h4 style="text-align: justify">Around main topic to design illustration, posters and banners which matched with brand image.</h4>
+                <h4 style="text-align: justify">Main for：compose、art</h4>
+        </div>
+        <div style="width:;margin: auto">
+            <img src="img/img_graphic_1.png">
+        </div>    
+
+    </div>
+
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Poster</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/graphic_01.png">
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/graphic_02.png">
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/graphic_03.png">
+    </div>
+
+    <div style="width:80%;margin: auto">
+        <img src="img/graphic_04.png">
+    </div>
+
+    <div class="space">
+        <div class="circle"></div>
+        <h1>Banner</h1>
+        <div class="v-line"></div>
+    </div>
+
+    <div class="" id="container_pc">
+    <div style="width:80%;margin: auto">
+        <img src="img/graphic_05.png">
+    </div>
+    </div>
+
+    <div class="" id="container_mobile">
+        <div class="box_1" data-aos="" data-aos-duration="3000" id="profolio">
+                <img src="img/graphic_06.png"></div>
+        </div>
+
+        <div class="box_footer_pc" data-aos="" data-aos-duration="3000" id="contact_pc">
+            <col><h2>Hello, I'm Karen.<br>I look forward to your reply, and please contact me if there's any question.</h2><col>
+
+        <col>
+            <form action="https://formspree.io/f/mayaqbyd" method="post">
+              <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+              <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+            </form>
+        </col>
+
+        <div style="font-size: 16px;letter-spacing：10px;">Copyright©2022Allabout</div>
+
+        </div>
+
+        <div class="box_footer_mobile" data-aos="" data-aos-duration="3000" id="contact_mobile">
+            <col><h2>Hello, I'm Karen.<br>I look forward to your reply, and please contact me if there's any question.</h2><col>
+
+        <col>
+            <form action="https://formspree.io/f/mayaqbyd" method="post">
+              <input class="textarea" type="textarea" placeholder="Write something" name="UserName" required> 
+              <input class="btn_sent" type="submit" name="SB" value="Submit" > 
+            </form>
+        </col>
+
+        <div style="font-size: 16px;">Copyright©2022Allabout</div>
+
+        </div>
+
+
+
+<script>
+    AOS.init();
+</script>
+  
+<script>
+const seeMore = document.getElementById('seeMoreBtn')
+const article = document.getElementById('article')
+
+seeMore.addEventListener('click', () => {
+  article.classList.toggle('extended')
+
+  const extended = article.classList.contains('extended')
+  if (extended) {
+    seeMore.innerHTML = 'Close'
+  } else {
+    seeMore.innerHTML = 'Read More'
+  }
+})
+</script>
+
+</body>
+</html>
