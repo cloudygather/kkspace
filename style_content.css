@@ -19,6 +19,17 @@ nav{
     cursor: pointer;
   }
   
+  .menu_mobile{
+    color:#4a4a4a;
+    margin: 10px -5px;
+    font-size: 20px;
+    border-style: hide;
+    border:2px white none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
   .menu:hover{
     color:#2554A4;
     background-color: #ffffff;
@@ -28,7 +39,7 @@ nav{
   .form-control {
         position: absolute;
         right:60px;
-        width: 100%;
+        width: 80px;
         height: 40px;
         padding: 6px 12px;
         font-size: 20px;
@@ -60,7 +71,7 @@ nav{
     }
     .form-control {
         position: absolute;
-        right:60px;
+        right:40px;
         top:20px;
         font-size:14px;
         width:120px;
