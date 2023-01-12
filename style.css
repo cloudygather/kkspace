@@ -64,6 +64,17 @@ nav{
   .menu:hover{
     color:#2554A4;
   }
+
+  .menu_mobile{
+    color:#4a4a4a;
+    margin: 8px 0;
+    font-size: 20px;
+    border-style: hide;
+    border:2px white none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-size: 20px;
+  }
   
   a{
     color:#4a4a4a;
@@ -280,8 +291,8 @@ nav{
     border:none ;
     color:#4a4a4a;
     padding: 15px;
-  
   }
+  
   
   article {
     font-size: 24px;
@@ -294,7 +305,7 @@ nav{
   
   .form-control {
       position: absolute;
-      right:60px;
+      right:40px;
       top:20px;
       font-size:14px;
       width:120px;
