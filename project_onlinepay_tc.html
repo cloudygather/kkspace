@@ -14,7 +14,7 @@
 
 <nav>
   
-    <ul>
+    <ul id="container_pc">
         <a href="cv_tc.html"><input type="button" class="menu" value="首頁" onClick="javascript:ScrollTo('top')"></a>
         <form>
             <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
@@ -23,6 +23,16 @@
             </select> 
         </form>    
     </ul>
+    <ul id="container_mobile">
+        <a href="cv_tc.html"><input type="button" class="menu_mobile" value="首頁" onClick="javascript:ScrollTo('top')"></a>
+        <form>
+            <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                <option value="project_onlinepay_tc.html">繁中</option>  
+                <option value="project_onlinepay_en.html">EN</option>
+            </select> 
+        </form>    
+    </ul>
+
 
 </nav>
 
@@ -71,14 +81,14 @@
     <div width="80%" margin="auto" id="container_pc">
     <h4 style="text-align: justify;width: 80%;display: flex;position: relative; margin:auto;">主要負責UIUX、前端頁面，建立各區塊主題呈現，簡單易懂描述產品內容與相關資訊，銜接線上支付串接金流付款，以最少的步驟完成操作流程。</h4>
     <div class="box" data-aos="" data-aos-duration="3000">
-        <div style="height:36vh;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
+        <div style="height:auto;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
             <div style="margin:auto;"><h4><b>前台訪客端</b></br>
                 1.產品一頁式著陸頁說明</br>
                 2.產品列表</br>
                 3.付款表單(金流外連)</br>
                 4.完成付款通知email</br></h4>   </div>   
         </div>
-        <div style="height:36vh;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
+        <div style="height:auto;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
             <div style="margin:auto;"><h4><b>後台服務端</b></br>
                 1.說明會與主圖上下架管理</br>
                 2.接收表單</br>
@@ -92,10 +102,10 @@
     <div width="80%" margin="auto" id="container_mobile">
     <h4 style="text-align: justify;width: 80%;display: flex;position: relative; margin:auto;">主要負責UIUX、前端頁面，建立各區塊主題呈現，簡單易懂描述產品內容與相關資訊，銜接線上支付串接金流付款，以最少的步驟完成操作流程。</h4>
     <div class="box_1" data-aos="" data-aos-duration="3000">
-        <div style="height:36vh;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
+        <div style="height:auto;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
             <div style="margin:auto;"><h4>前台訪客端</br>以數位城市形象帶入主題、相關說明會資訊報名連結與送出聯絡表單，廣告著陸頁至線上支付流程，經由選擇產品品項、填寫表單至金流服務，完成訂單服務後接收成功付款訊息。</br></h4>   </div>   
         </div>
-        <div style="height:36vh;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
+        <div style="height:auto;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
             <div style="margin:auto;"><h4>後台服務端</br>上架說明會主圖、標題與說明，接收訪客回傳報名表單、聯絡表單與購買資訊。</h4>   </div>    
         </div>
     </div>

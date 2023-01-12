@@ -14,7 +14,7 @@
 
 <nav>
   
-    <ul>
+    <ul id="container_pc">
         <a href="cv_tc.html"><input type="button" class="menu" value="首頁" onClick="javascript:ScrollTo('top')"></a>
         <form>
             <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
@@ -23,6 +23,16 @@
             </select> 
         </form>    
     </ul>
+    <ul id="container_mobile">
+        <a href="cv_tc.html"><input type="button" class="menu_mobile" value="首頁" onClick="javascript:ScrollTo('top')"></a>
+        <form>
+            <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                <option value="project_graphic_tc.html">繁中</option>  
+                <option value="project_graphic_en.html">EN</option>
+            </select> 
+        </form>    
+    </ul>
+
 
 </nav>
 

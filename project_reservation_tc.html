@@ -14,6 +14,7 @@
 
 <nav>
   
+    <div id="container_pc">
     <ul>
         <a href="cv_tc.html"><input type="button" class="menu" value="首頁" onClick="javascript:ScrollTo('top')"></a>
         <form>
@@ -23,6 +24,19 @@
             </select> 
             </form>    
     </ul>
+    </div>
+    <div id="container_mobile">
+        <ul>
+            <a href="cv_tc.html"><input type="button" class="menu_mobile" value="首頁" onClick="javascript:ScrollTo('top')"></a>
+            <form>
+                <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                    <option value="project_reservation_tc.html">繁中</option>  
+                    <option value="project_reservation_en.html">EN</option>
+                </select> 
+                </form>    
+        </ul>
+        </div>
+    
 
 </nav>
 
@@ -68,14 +82,14 @@
     </div>
     </div>
 
-    <div style="width:360px;margin: 50px auto 0">
+    <div style="width:280px;margin: 50px auto 0">
         <img src="img/img_r_9.png">
     </div>
 
 
     <div class="space">
         <div class="circle"></div>
-        <h1>Structure of pages</h1>
+        <h1>UI flow</h1>
         <div class="v-line"></div>
     </div>
 
@@ -109,7 +123,7 @@
 
     <div class="space">
         <div class="circle"></div>
-        <h1>Style+Conponent</h1>
+        <h1>Conponent</h1>
         <div class="v-line"></div>
     </div>
 

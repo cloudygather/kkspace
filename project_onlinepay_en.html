@@ -14,7 +14,7 @@
 
 <nav>
   
-    <ul>
+    <ul id="container_pc">
         <a href="cv_en.html"><input type="button" class="menu" value="Home" onClick="javascript:ScrollTo('top')"></a>
         <form>
             <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
@@ -23,6 +23,17 @@
             </select> 
         </form>    
     </ul>
+
+    <ul id="container_mobile">
+        <a href="cv_en.html"><input type="button" class="menu_mobile" value="Home" onClick="javascript:ScrollTo('top')"></a>
+        <form>
+            <select class="form-control info-select" name="selectURL" onchange="window.location.href=this.form.selectURL.options[this.form.selectURL.selectedIndex].value" > 
+                <option value="project_onlinepay_en.html">EN</option>
+                <option value="project_onlinepay_tc.html">繁中</option>  
+            </select> 
+        </form>    
+    </ul>
+
 
 </nav>
 
@@ -71,14 +82,14 @@
     <div width="80%" margin="auto" id="container_pc">
     <h4 style="text-align: justify;width: 80%;display: flex;position: relative; margin:auto;">Main for uiux in front-stage and back-stage, set up the main topic of every area to describe the content of products and relative information easily, and connect to pay online flow with the most less steps to complete shop experience.</h4>
     <div class="box" data-aos="" data-aos-duration="3000">
-        <div style="height:36vh;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
+        <div style="height:auto;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
             <div style="margin:auto;"><h4><b>Customers at front-stage</b></br>
                 1.Product landing page</br>
                 2.List of products</br>
                 3.Payment form</br>
                 4.Notification email</br></h4>   </div>   
         </div>
-        <div style="height:36vh;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
+        <div style="height:auto;border-style:solid;padding:5%;border-radius: 20px;border-width: 1px;border-color: #888888;">
             <div style="margin:auto;">
                 <h4><b>Stores at back-stage</b></br>
                 1.News and brand image management</br>

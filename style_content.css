@@ -11,7 +11,7 @@ nav{
   
   .menu{
     color:#4a4a4a;
-    margin: 8px 10px;
+    margin: 8px 0px;
     font-size: 20px;
     border-style: hide;
     border:2px white none;
@@ -19,22 +19,24 @@ nav{
     cursor: pointer;
   }
   
-  .menu_mobile{
-    color:#4a4a4a;
-    margin: 10px -5px;
-    font-size: 20px;
-    border-style: hide;
-    border:2px white none;
-    background-color: #f5f5f5;
-    cursor: pointer;
-    font-size: 14px;
-  }
-
   .menu:hover{
     color:#2554A4;
     background-color: #ffffff;
   
   }
+
+  .menu_mobile{
+    color:#4a4a4a;
+    margin: 10px -5px;
+    font-size: px;
+    border-style: hide;
+    border:2px white none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+
   
   .form-control {
         position: absolute;
@@ -203,7 +205,7 @@ nav{
   }
   
   .btn_sent{
-      width:20%;
+      width:80px;
       height:60px;
       margin:10% 0%;
       padding: 0 10px;
