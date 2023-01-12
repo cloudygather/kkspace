@@ -67,7 +67,7 @@ nav{
 
   .menu_mobile{
     color:#4a4a4a;
-    margin: 10px -3px;
+    margin: 10px -5px;
     font-size: 14px;
     border-style: hide;
     border:2px white none;
@@ -173,6 +173,17 @@ nav{
       font-size:20px;
       border:none ;
   }
+
+  .textarea_mobile{
+    width:85%;
+    height:60px;
+    margin:10% 0 0 0;
+    padding: 0 15px;
+    border-radius:10px;
+    border-color: black;
+    font-size:20px;
+    border:none ;
+}
   
   .btn_sent{
       width:100px;
