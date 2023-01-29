@@ -156,7 +156,8 @@ nav{
   }
   
   .about{
-      text-align:justify;
+      text-align:center;
+      
   }
   
   .description{
@@ -244,7 +245,6 @@ nav{
       margin:5px 0;
       padding:10%;
   }
-  
   
   
   @media screen and (min-width: 1200px) {
