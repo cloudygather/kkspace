@@ -157,7 +157,6 @@ nav{
   
   .about{
       text-align:center;
-      
   }
   
   .description{
@@ -320,7 +319,7 @@ nav{
       right:40px;
       top:20px;
       font-size:14px;
-      width:80px;
+      width:40px;
       margin:0 auto;
       background: url("img/icon_dropdown_dark.svg") no-repeat right center;}
   
@@ -337,7 +336,7 @@ nav{
   
   /* 定义隐藏下拉框默认样式及图片覆盖下拉按钮 */   
   .info-select{
-      width: 120px;
+      width: 86px;
       outline:none;
       appearance:none;
       -moz-appearance:none;
