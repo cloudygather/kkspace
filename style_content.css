@@ -27,7 +27,7 @@ nav{
 
   .menu_mobile{
     color:#4a4a4a;
-    margin: 10px -5px;
+    margin: 10px -10px;
     font-size: px;
     border-style: hide;
     border:2px white none;
@@ -76,7 +76,7 @@ nav{
         right:40px;
         top:20px;
         font-size:14px;
-        width:120px;
+        width:40px;
         margin:0 auto;
         background: url("img/icon_dropdown_dark.svg") no-repeat right center;}
     
@@ -93,7 +93,7 @@ nav{
     
     /* 定义隐藏下拉框默认样式及图片覆盖下拉按钮 */   
     .info-select{
-        width: 120px;
+        width: 86px;
         outline:none;
         appearance:none;
         -moz-appearance:none;
