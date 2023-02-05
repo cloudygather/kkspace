@@ -226,7 +226,7 @@ nav{
   .box_mobile{
       display: grid;
       grid-template-columns: 1fr;
-      grid-gap:50px;
+      grid-gap:px;
       border: #4a4a4a;
       background-color: none;
       border-color:#aaaaee;
